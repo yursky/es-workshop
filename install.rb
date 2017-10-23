@@ -145,6 +145,8 @@ def install_es(install_path)
   end
 
   archive_file = File.join(install_path, File.basename(ES_INSTALL_URI.path))
+  print archive_file
+  print ES_INSTALL_URI
   download(ES_INSTALL_URI, archive_file)
   unpack(archive_file, install_path)
 

@@ -1,22 +1,19 @@
-[![Gitter chat](https://badges.gitter.im/es-workshop.svg)](https://gitter.im/es-workshop/Lobby)
-
 # es-workshop
-Clone this in your terminal by running `git clone https://github.com/bojdell/es-workshop.git`. This will copy all the code to your computer under the directory `es-workshop`. If you don't have [Git](https://git-scm.com/downloads), you will need to install it.
- - Submit Twitter Handles [here](https://docs.google.com/spreadsheets/d/12qazCJs2qmo2anRqnDGg9JmGsek5Xs3U725HxaFzHJo/edit?usp=sharing)
- - [Workshop Slides](https://docs.google.com/presentation/d/1RDyJ7IlkHBwMcZmoerOkkVaRUZ9babd5XwKeFDF_6Sk/edit)
+Clone this in your terminal by running `git clone https://github.com/yursky/es-workshop.git`. This will copy all the code to your computer under the directory `es-workshop`. If you don't have [Git](https://git-scm.com/downloads), you will need to install it.
+ - [Workshop Slides](https://docs.google.com/presentation/d/1RrLE17O803KkuI5oSCnBvm3TPcrkZJKkNqAZCRdbmZc/edit?usp=sharing)
 
 ## Overview
 The workshop is split into the following components:
 
-1. Installation / Setup (~25 mins)
-2. Elasticsearch API Basics (~25 mins)
-3. Building a Product with Elasticsearch (~60 mins)
-    - Warmup (~5 mins)
-    - Challenge 1 (~20 mins)
-    - Challenge 2 (~20 mins)
-    - Challenge 3 (~20 mins)
+1. Installation / Setup
+2. Elasticsearch API Basics
+3. Building a Product with Elasticsearch
+    - Warmup
+    - Challenge 1
+    - Challenge 2
+    - Challenge 3
 
-## 1) Installation / Setup (~25 mins)
+## 1) Installation / Setup
 Please set up the following things before proceeding:
 
 1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/) (`brew install ruby` for [Homebrew](http://brew.sh/) users)
@@ -31,14 +28,14 @@ Please set up the following things before proceeding:
 - Have a lightweight text editor available (we recommend Sublime Text: https://www.sublimetext.com/3, but use whatever you like)
 - Be semi-comfortable navigating your terminal of choice (ideally POSIX)
 
-## 2) Elasticsearch API Basics (~25 mins)
+## 2) Elasticsearch API Basics
 Open the file `es_commands.txt`. Navigate to the Kibana Dev Tools Console at [http://localhost:5601/app/kibana#/dev_tools/console](http://localhost:5601/app/kibana#/dev_tools/console). Paste the contents of `es_commands.txt` into the console.
 
 Note the keyboard shortcuts in the help menu, in particular: `Ctrl/Cmd + Enter = Submit request`.
 
 Read through the comments and execute the commands one at a time.
 
-## 3) Building a Product with Elasticsearch (~60 mins)
+## 3) Building a Product with Elasticsearch
 
 For this part, you will be working to create a search engine on real Twitter data. You will be solving challenges by implementing Elasticsearch queries. The search engine looks like this:
 
@@ -69,7 +66,4 @@ Edit the file `public/js/basicQuery.js` to also retrieve the field for a user's 
 The app will pick up your changes after you save the file and refresh the page you are on. `basicQuery.js` is used on the `Home` page.
 
 ### Challenges 1-3
-Follow the instrutions on each page to solve the challenge. Again remember that you can use the Kibana Dev Tools Console / Chrome Dev Console to debug things. One participant will share his/her solution to each challenge.
-
-### Feedback
-You can provide feedback on the workshop here: [http://goo.gl/forms/dI2uK0HGPmbCAXh12](http://goo.gl/forms/dI2uK0HGPmbCAXh12). Please help us make it better for future sessions!
+Follow the instructions on each page to solve the challenge. Again remember that you can use the Kibana Dev Tools Console / Chrome Dev Console to debug things. One participant will share his/her solution to each challenge.
